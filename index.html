@@ -1,0 +1,68 @@
+<div>
+  
+  <h1>
+  Student Registration
+</h1><!--title-->
+<p>
+  Enter the required data in the boxes.
+</p>
+  
+</div>
+<div>
+  
+  <form>
+    <label>Name</label>
+      <input type="text" name="name" required placeholder="Insert your name"><br>
+    <label >Email</label>
+      <input type="email" name="email" required placeholder="Insert your email"><br>
+    <label >Age</label>
+      <input type="number" name="number" placeholder="Age" min=18 max=60 required><br>
+    <label >Carrer</label>
+    <select name="role" required>
+      <option disabled selected value>
+        Select your carrer
+      </option>
+      <option value="ISC">
+        Computer Systems Engineering
+      </option>
+      <option value="IMA">
+        Automotive mechatronics engineering
+      </option>
+      <option value="II">
+        Industrial Engineering
+      </option>
+      <option value="IGE">
+        Business Management Engineering
+      </option>
+    </select>
+    <p>Genre</p>
+    <label>
+      <input type="radio" name="genre" value="Male">Male
+    </label>
+    <label>
+      <input type="radio" name="genre" value="Female">Female
+    </label>
+    <label>
+      <input type="radio" name="genre" value="Other">I prefer not to answer
+    </label>
+    <p>What is your preferred mode of study?</p>
+    <label>
+      <input type="checkbox" name="mode" value="Online">Online
+    </label>
+    <label>
+      <input type="checkbox" name="mode" value="Hybrid">Hybrid
+    </label>
+    <label>
+      <input type="checkbox" name="mode" value="On site">On site
+    </label>
+    <p>Any comments or suggestions?</p>
+      <textarea
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea><!---comment-->
+    
+    
+    <input type="submit"  name="submit" value="Submit">
+  </form><!---survey-form--->
+</div><!--container_2--->
+
